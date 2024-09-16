@@ -34,21 +34,21 @@ Kullanıcıdan alınan bir sayının asal olup olmadığını bulan bir program�
 Başla
   1. Sayı al (n)
   2. Eğer n <= 1 ise
-    2.1. Yaz "Asal sayı değildir"
-    2.2. Bitir
+   2.1. Yaz "Asal sayı değildir"
+   2.2. Bitir
   3. Değilse
-    3.1. i = 2
-    3.2. Asal = True
-    3.3. Döngü (i <= n / 2)
-      3.3.1. Eğer n % i == 0 ise
-        3.3.1.1. Asal = False
-        3.3.1.2. Döngüden çık
-      3.3.2. i = i + 1
-    3.4. Döngü sonu
-    3.5. Eğer Asal ise
-      3.5.1. Yaz "Asal sayıdır"
-    3.6. Değilse
-      3.6.1. Yaz "Asal sayı değildir"
+   3.1. i = 2
+   3.2. Asal = True
+   3.3. Döngü (i <= n / 2)
+    3.3.1. Eğer n % i == 0 ise
+    3.3.1.1. Asal = False
+    3.3.1.2. Döngüden çık
+    3.3.2. i = i + 1
+   3.4. Döngü sonu
+   3.5. Eğer Asal ise
+    3.5.1. Yaz "Asal sayıdır"
+   3.6. Değilse
+     3.6.1. Yaz "Asal sayı değildir"
 Bitir
 
 # 4. Seviye: Zor
